@@ -17,7 +17,7 @@ NC='\033[0m'
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || pwd)"
 INSTALL_DIR="${HOME}/.gemini/antigravity-zh-cn"
-REPO_RAW_BASE="https://raw.githubusercontent.com/Leemating/antigravity-zh-cn/main"
+REPO_RAW_BASE="https://raw.githubusercontent.com/Leo-Li-Dev/antigravity-zh-cn/main"
 LAUNCH_AGENT_LABEL="com.google.antigravity.zh-cn"
 LAUNCH_AGENT_PLIST="${HOME}/Library/LaunchAgents/${LAUNCH_AGENT_LABEL}.plist"
 

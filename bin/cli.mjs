@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Antigravity 2.0 简体中文汉化补丁 - 跨平台 CLI 入口 (支持 npx github:Leemating/antigravity-zh-cn)
+ * Antigravity 2.0 简体中文汉化补丁 - 跨平台 CLI 入口 (支持 npx github:Leo-Li-Dev/antigravity-zh-cn)
  */
 
 import { spawnSync } from 'node:child_process';
@@ -19,7 +19,7 @@ if (cmd === '-h' || cmd === '--help' || cmd === 'help') {
 Antigravity 2.0 简体中文持久化汉化补丁 (antigravity-zh-cn)
 
 用法:
-  npx github:Leemating/antigravity-zh-cn [command]
+  npx github:Leo-Li-Dev/antigravity-zh-cn [command]
 
 命令:
   install      安装汉化补丁并开启防更新自动守护 (默认)

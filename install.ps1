@@ -7,7 +7,7 @@ $ErrorActionPreference = "Stop"
 
 $ScriptDir = if ($MyInvocation.MyCommand.Path) { Split-Path -Parent $MyInvocation.MyCommand.Path } else { $PWD.Path }
 $InstallDir = Join-Path $HOME ".gemini\antigravity-zh-cn"
-$RepoRawBase = "https://raw.githubusercontent.com/Leemating/antigravity-zh-cn/main"
+$RepoRawBase = "https://raw.githubusercontent.com/Leo-Li-Dev/antigravity-zh-cn/main"
 $TaskName = "AntigravityZhCnAutoPatcher"
 
 Write-Host "============================================================" -ForegroundColor Cyan

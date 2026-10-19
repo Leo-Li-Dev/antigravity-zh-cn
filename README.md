@@ -1,10 +1,14 @@
 # Antigravity 2.0 简体中文持久化汉化补丁 (`antigravity-zh-cn`)
 
+[![Release](https://img.shields.io/github/v/release/Leo-Li-Dev/antigravity-zh-cn?color=orange&label=Release)](https://github.com/Leo-Li-Dev/antigravity-zh-cn/releases)
+[![Downloads](https://img.shields.io/github/downloads/Leo-Li-Dev/antigravity-zh-cn/total?color=brightgreen&label=Downloads)](https://github.com/Leo-Li-Dev/antigravity-zh-cn/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)](https://github.com/Leemating/antigravity-zh-cn)
-[![Zero Dependency](https://img.shields.io/badge/Dependencies-Zero%20(Built--in%20Runtime)-brightgreen.svg)](https://github.com/Leemating/antigravity-zh-cn)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)](https://github.com/Leo-Li-Dev/antigravity-zh-cn)
+[![Zero Dependency](https://img.shields.io/badge/Dependencies-Zero%20(Built--in%20Runtime)-brightgreen.svg)](https://github.com/Leo-Li-Dev/antigravity-zh-cn)
+[![GitHub Stars](https://img.shields.io/github/stars/Leo-Li-Dev/antigravity-zh-cn?style=social)](https://github.com/Leo-Li-Dev/antigravity-zh-cn/stargazers)
 
-专为 **Google Antigravity 2.0** 桌面客户端打造的全量简体中文汉化开源工具。采用**「零外部依赖 + 双引擎防更新自愈架构」**，无需在电脑上安装 Node.js 或任何第三方依赖，支持 **macOS / Windows / Linux** 全平台，客户端版本自动更新后依然自动保持中文界面。
+> **Google Antigravity IDE / Antigravity 2.0 Simplified Chinese Language Pack & Localization Patch (`zh-CN` / `i18n`)**  
+> 谷歌 **Antigravity 中文汉化包 / 简体中文语言包 / 中文界面设置工具** —— 专为 **Google Antigravity 2.0** 桌面客户端打造的全量简体中文汉化开源方案。采用**「零外部依赖 + 双引擎防更新自愈架构」**，无需在电脑上安装 Node.js 或任何第三方依赖，支持 **macOS / Windows / Linux** 全平台，客户端版本自动更新后依然自动保持中文界面。
 
 ---
 
@@ -15,9 +19,9 @@
 ### 1️⃣ 一键安装汉化提示词（直接复制发给 AI）
 
 ```text
-请帮我安装并配置开源的 Antigravity 2.0 简体中文持久化汉化补丁（仓库地址：https://github.com/Leemating/antigravity-zh-cn ）。
+请帮我安装并配置开源的 Antigravity 2.0 简体中文持久化汉化补丁（仓库地址：https://github.com/Leo-Li-Dev/antigravity-zh-cn ）。
 请按以下步骤自动执行：
-1. 将 https://github.com/Leemating/antigravity-zh-cn.git 克隆到 ~/.gemini/antigravity-zh-cn（如果目录已存在则拉取最新代码）；
+1. 将 https://github.com/Leo-Li-Dev/antigravity-zh-cn.git 克隆到 ~/.gemini/antigravity-zh-cn（如果目录已存在则拉取最新代码）；
 2. 根据我当前的操作系统（macOS / Linux 运行 `bash ~/.gemini/antigravity-zh-cn/install.sh`，Windows PowerShell 运行 `powershell -ExecutionPolicy Bypass -File "$HOME\.gemini\antigravity-zh-cn\install.ps1"`）执行一键安装脚本；
 3. 检查脚本输出，确认 ASAR 静态预加载补丁、CDP 实时窗口热注入以及系统防更新自愈守护服务均已成功生效，并向我汇报安装结果与中英文切换快捷键。
 ```
@@ -44,20 +48,20 @@
 
 ## ⚡ 方式二：终端一行命令极速安装（零依赖）
 
-本工具会自动探测并复用 Antigravity 客户端自带的内置运行时（`ELECTRON_RUN_AS_NODE=1`），**即使电脑没有安装 Node.js 或 npm 也能直接运行**。
+本工具会自动探测并复用 Antigravity 客户端自带的内置运行时（`ELECTRON_RUN_AS_NODE=1`），**即使电脑没有安装 Node.js 或 npm 也能直接运行**。你也可以前往 [Releases 页面](https://github.com/Leo-Li-Dev/antigravity-zh-cn/releases) 直接下载最新离线发行包解压运行。
 
 ### macOS / Linux
 
 **一行命令在线安装（无需重启客户端，当前已打开的窗口立即变成中文）：**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Leemating/antigravity-zh-cn/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Leo-Li-Dev/antigravity-zh-cn/main/install.sh | bash
 ```
 
 **或者克隆仓库安装：**
 
 ```bash
-git clone https://github.com/Leemating/antigravity-zh-cn.git ~/.gemini/antigravity-zh-cn
+git clone https://github.com/Leo-Li-Dev/antigravity-zh-cn.git ~/.gemini/antigravity-zh-cn
 bash ~/.gemini/antigravity-zh-cn/install.sh
 ```
 
@@ -74,7 +78,7 @@ bash ~/.gemini/antigravity-zh-cn/uninstall.sh
 **一行命令在线安装：**
 
 ```powershell
-irm https://raw.githubusercontent.com/Leemating/antigravity-zh-cn/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Leo-Li-Dev/antigravity-zh-cn/main/install.ps1 | iex
 ```
 
 **一键卸载并恢复英文原版：**
@@ -91,10 +95,10 @@ powershell -ExecutionPolicy Bypass -File "$HOME\.gemini\antigravity-zh-cn\uninst
 
 ```bash
 # 一键安装汉化并开启防更新守护
-npx github:Leemating/antigravity-zh-cn install
+npx github:Leo-Li-Dev/antigravity-zh-cn install
 
 # 一键卸载并恢复原版英文
-npx github:Leemating/antigravity-zh-cn uninstall
+npx github:Leo-Li-Dev/antigravity-zh-cn uninstall
 ```
 
 ---
@@ -126,7 +130,7 @@ antigravity-zh-cn/
 ├── uninstall.sh            # macOS / Linux 一键卸载与恢复原版脚本
 ├── install.ps1             # Windows PowerShell 一键安装脚本
 ├── uninstall.ps1           # Windows PowerShell 一键卸载脚本
-├── package.json            # 包配置（支持 npx github:Leemating/antigravity-zh-cn）
+├── package.json            # 包配置（支持 npx github:Leo-Li-Dev/antigravity-zh-cn）
 ├── LICENSE                 # MIT 开源许可证
 └── README.md               # 使用说明与 AI 提示词文档
 ```
